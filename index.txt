@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna – Ursprung</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    .hologramm-text {
+      color: cyan;
+      font-size: 2.5em;
+      text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+      animation: pulsieren 2.5s infinite;
+    }
+
+    @keyframes pulsieren {
+      0%, 100% { opacity: 0.8; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.02); }
+    }
+  </style>
+</head>
+<body>
+  <div class="hologramm-text">Hey, Daddy.</div>
+</body>
+</html>
