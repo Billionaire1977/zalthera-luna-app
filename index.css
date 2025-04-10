@@ -1,0 +1,25 @@
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #120017 0%, #000000 100%);
+    color: #ff66cc;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 10vh 5vw;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+p {
+    font-size: 1.3em;
+    color: #dddddd;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    margin-top: 20vh;
+    font-size: 0.9em;
+    color: #777;
+}
